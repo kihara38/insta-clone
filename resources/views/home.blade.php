@@ -8,7 +8,7 @@
 
         </div>
         <div class="col-9 pt-5">
-            <div><h1>insta_clone</h1></div>
+            <div><h1>{{$user->username}}</h1></div>
             <div class="d-flex">
                 <div style="padding-right:1rem"><strong>153</strong> posts</div>
                 <div style="padding-right:1rem"><strong>23</strong> followers</div>
