@@ -8,17 +8,18 @@
 
         </div>
         <div class="col-9 pt-5">
-            <div><h1>{{$user->username}}</h1></div>
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h1>{{$user->username}}</h1>
+                <a href="#">Add New Post</a>
+            </div>
             <div class="d-flex">
                 <div style="padding-right:1rem"><strong>153</strong> posts</div>
                 <div style="padding-right:1rem"><strong>23</strong> followers</div>
                 <div style="padding-right:1rem"><strong>234</strong> following</div>
             </div>
-            <div class="pt-3" style="font-weight: 700" >kiharanelson@nelki.com</div>
-            <div style="width: 60%">We no longer need to fear arguments, confrontations or any kind of problems with ourselves or others.
-                Even stars collide, and out of their crashing new worlds are born.
-               <i>Today I know that this LIFE</i> </div>
-               <div><a href="#">kiharanelson@nelki.com</a></div>
+            <div class="pt-3" style="font-weight: 700" >{{$user->profile->title}}</div>
+            <div style="width: 60%">{{$user->profile->description}}</i> </div>
+               <div><a href="#">{{$user->profile->url}}</a></div>
         </div>
 
     </div>
