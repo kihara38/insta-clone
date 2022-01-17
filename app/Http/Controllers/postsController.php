@@ -36,6 +36,7 @@ class postsController extends Controller
     public function show(\App\Models\post $post)
     {
         return view('posts.show',compact('post'));
+
     }
 }
 
