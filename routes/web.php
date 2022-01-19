@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-
+Route::post('/follow/{user}',('App\Http\Controllers\FollowsController@store'));
 
 Route::get('/p/create','App\Http\Controllers\postsController@create');
 Route::post('/p','App\Http\Controllers\postsController@store');
