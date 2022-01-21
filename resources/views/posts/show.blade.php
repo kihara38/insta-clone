@@ -20,7 +20,7 @@
                        </h3>
 
                    </div>
-                   <h4 style="padding-left: 1rem; font-weight: bold;"><a href="#">Follow</a></h4>
+                   <h4 style="padding-left: 1rem; font-weight: bold;"><a href="/profile/{{auth()->user()->id}}">Follow</a></h4>
                </div>
                <hr>
 

@@ -5280,7 +5280,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   computed: {
     buttonText: function buttonText() {
-      return this.status ? "you Following them" : "not following them";
+      return this.status ? "not giving a fuck" : "giving a fuck";
     }
   }
 });

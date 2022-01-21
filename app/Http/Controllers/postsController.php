@@ -12,6 +12,13 @@ class postsController extends Controller
     {
         $this->middleware('auth');
     }
+
+    public function index()
+    {
+        $user=auth()->user()->following()->pluck('profiles.user_id');
+        dd($user);
+    }
+
     public function create()
     {
        return view('posts.create');

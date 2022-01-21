@@ -40,7 +40,7 @@ export default {
     },
     computed: {
         buttonText() {
-            return this.status ? "you Following them" : "not following them";
+            return this.status ? "not giving a fuck" : "giving a fuck";
         },
     },
 };
